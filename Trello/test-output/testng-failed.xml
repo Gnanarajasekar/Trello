@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Trello]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReport"/>
+    <listener class-name="utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Log Off(failed)">
+    <classes>
+      <class name="logout_test.LogOut_Test">
+        <methods>
+          <include name="signoff"/>
+        </methods>
+      </class> <!-- logout_test.LogOut_Test -->
+    </classes>
+  </test> <!-- Log Off(failed) -->
+</suite> <!-- Failed suite [Trello] -->

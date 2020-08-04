@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Trello" class="navigator-link">
+              <span class="suite-name border-failed">Trello</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Trello" class="navigator-link ">
+                    <span>C:\Users\admin\eclipse-workspace\New Eclipse Workspace\new\Trello\Trello.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Trello" class="navigator-link ">
+                    <span class="test-stats">13 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Trello" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Trello" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Trello" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Trello" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Trello" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods, 1 failed,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Trello" class="hide-methods failed suite-Trello"> (hide)</a> <!-- hide-methods failed suite-Trello -->
+                      <a href="#" panel-name="suite-Trello" class="show-methods failed suite-Trello"> (show)</a> <!-- show-methods failed suite-Trello -->
+                    </span>
+                    <div class="method-list-content failed suite-Trello">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="logout_test.LogOut_Test" class="method navigator-link" hash-for-method="signoff">signoff</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Trello -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Trello" class="hide-methods passed suite-Trello"> (hide)</a> <!-- hide-methods passed suite-Trello -->
+                      <a href="#" panel-name="suite-Trello" class="show-methods passed suite-Trello"> (show)</a> <!-- show-methods passed suite-Trello -->
+                    </span>
+                    <div class="method-list-content passed suite-Trello">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="commentandassign_test.Assign_Test" class="method navigator-link" hash-for-method="Assign_And_Comment">Assign_And_Comment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="createboard_test.BoardCreate_Test" class="method navigator-link" hash-for-method="BoardCreation">BoardCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="movecard_test.CardMove_Test" class="method navigator-link" hash-for-method="CardMovement1">CardMovement1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="movecard_test.CardMove_Test" class="method navigator-link" hash-for-method="CardMovement2">CardMovement2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="movecard_test.CardMove_Test" class="method navigator-link" hash-for-method="CardMovement3">CardMovement3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="movecard_test.CardMove_Test" class="method navigator-link" hash-for-method="CardMovementValidation1">CardMovementValidation1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="movecard_test.CardMove_Test" class="method navigator-link" hash-for-method="CardMovementValidation2">CardMovementValidation2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="movecard_test.CardMove_Test" class="method navigator-link" hash-for-method="CardMovementValidation3">CardMovementValidation3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="createcard_test.CardValidation_Test" class="method navigator-link" hash-for-method="CardValidate">CardValidate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="invalidcredentials.InvalidCred_Test" class="method navigator-link" hash-for-method="CredentialValidation_Password">CredentialValidation_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="invalidcredentials.InvalidCred_Test" class="method navigator-link" hash-for-method="CredentialValidation_Username">CredentialValidation_Username</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="createlist_test.ListValidation_Test" class="method navigator-link" hash-for-method="ListValidate">ListValidate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="createlist_test.ListCreation_Test" class="method navigator-link" hash-for-method="Listing1">Listing1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="createlist_test.ListCreation_Test" class="method navigator-link" hash-for-method="Listing2">Listing2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="createlist_test.ListCreation_Test" class="method navigator-link" hash-for-method="Listing3">Listing3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="createlist_test.ListCreation_Test" class="method navigator-link" hash-for-method="Listing4">Listing4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="login_test.LoginPage_Test" class="method navigator-link" hash-for-method="LoginpageValidation">LoginpageValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="createboard_test.BoardValidation_Test" class="method navigator-link" hash-for-method="ValidationBoard">ValidationBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="invoking.browser_test.OpenBrowserbyExcel_Test" class="method navigator-link" hash-for-method="browserOpening">browserOpening</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="createcard_test.CardCreation_Test" class="method navigator-link" hash-for-method="cardCreation">cardCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="createcard_test.CardCreation_Test" class="method navigator-link" hash-for-method="cardCreation1">cardCreation1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="createcard_test.CardCreation_Test" class="method navigator-link" hash-for-method="cardCreation2">cardCreation2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="createcard_test.CardCreation_Test" class="method navigator-link" hash-for-method="cardCreation3">cardCreation3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello" title="title_test.TitlePage_Test" class="method navigator-link" hash-for-method="titleValidation">titleValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Trello -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Trello" class="panel Trello">
+          <div class="suite-Trello-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">logout_test.LogOut_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signoff">
+                  </a> <!-- signoff -->
+                  <span class="method-name">signoff</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [The text of Logout is not as expected, Expected : Logout but actual:Log Out] but found [false]
+	at logout.LogOutClass.log(LogOutClass.java:42)
+	at logout_test.LogOut_Test.signoff(LogOut_Test.java:15)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-failed -->
+          <div class="suite-Trello-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">movecard_test.CardMove_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CardMovement1">
+                  </a> <!-- CardMovement1 -->
+                  <span class="method-name">CardMovement1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CardMovement2">
+                  </a> <!-- CardMovement2 -->
+                  <span class="method-name">CardMovement2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CardMovement3">
+                  </a> <!-- CardMovement3 -->
+                  <span class="method-name">CardMovement3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CardMovementValidation1">
+                  </a> <!-- CardMovementValidation1 -->
+                  <span class="method-name">CardMovementValidation1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CardMovementValidation2">
+                  </a> <!-- CardMovementValidation2 -->
+                  <span class="method-name">CardMovementValidation2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CardMovementValidation3">
+                  </a> <!-- CardMovementValidation3 -->
+                  <span class="method-name">CardMovementValidation3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-passed -->
+          <div class="suite-Trello-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">createlist_test.ListCreation_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Listing1">
+                  </a> <!-- Listing1 -->
+                  <span class="method-name">Listing1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Listing2">
+                  </a> <!-- Listing2 -->
+                  <span class="method-name">Listing2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Listing3">
+                  </a> <!-- Listing3 -->
+                  <span class="method-name">Listing3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Listing4">
+                  </a> <!-- Listing4 -->
+                  <span class="method-name">Listing4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-passed -->
+          <div class="suite-Trello-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login_test.LoginPage_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginpageValidation">
+                  </a> <!-- LoginpageValidation -->
+                  <span class="method-name">LoginpageValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-passed -->
+          <div class="suite-Trello-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">createboard_test.BoardValidation_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidationBoard">
+                  </a> <!-- ValidationBoard -->
+                  <span class="method-name">ValidationBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-passed -->
+          <div class="suite-Trello-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">createlist_test.ListValidation_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ListValidate">
+                  </a> <!-- ListValidate -->
+                  <span class="method-name">ListValidate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-passed -->
+          <div class="suite-Trello-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">title_test.TitlePage_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation">
+                  </a> <!-- titleValidation -->
+                  <span class="method-name">titleValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-passed -->
+          <div class="suite-Trello-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">createcard_test.CardValidation_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CardValidate">
+                  </a> <!-- CardValidate -->
+                  <span class="method-name">CardValidate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-passed -->
+          <div class="suite-Trello-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">invalidcredentials.InvalidCred_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CredentialValidation_Password">
+                  </a> <!-- CredentialValidation_Password -->
+                  <span class="method-name">CredentialValidation_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CredentialValidation_Username">
+                  </a> <!-- CredentialValidation_Username -->
+                  <span class="method-name">CredentialValidation_Username</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-passed -->
+          <div class="suite-Trello-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">createcard_test.CardCreation_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cardCreation">
+                  </a> <!-- cardCreation -->
+                  <span class="method-name">cardCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cardCreation1">
+                  </a> <!-- cardCreation1 -->
+                  <span class="method-name">cardCreation1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cardCreation2">
+                  </a> <!-- cardCreation2 -->
+                  <span class="method-name">cardCreation2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cardCreation3">
+                  </a> <!-- cardCreation3 -->
+                  <span class="method-name">cardCreation3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-passed -->
+          <div class="suite-Trello-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">commentandassign_test.Assign_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Assign_And_Comment">
+                  </a> <!-- Assign_And_Comment -->
+                  <span class="method-name">Assign_And_Comment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-passed -->
+          <div class="suite-Trello-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">invoking.browser_test.OpenBrowserbyExcel_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="browserOpening">
+                  </a> <!-- browserOpening -->
+                  <span class="method-name">browserOpening</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-passed -->
+          <div class="suite-Trello-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">createboard_test.BoardCreate_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BoardCreation">
+                  </a> <!-- BoardCreation -->
+                  <span class="method-name">BoardCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello-class-passed -->
+        </div> <!-- panel Trello -->
+        <div panel-name="test-xml-Trello" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\eclipse-workspace\New Eclipse Workspace\new\Trello\Trello.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Trello&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReport&quot;/&gt;
+    &lt;listener class-name=&quot;utilities.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Invoking Browser&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;invoking.browser_test.OpenBrowserbyExcel_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Invoking Browser --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Title Validation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;title_test.TitlePage_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Title Validation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Invalid Cred test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;invalidcredentials.InvalidCred_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Invalid Cred test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Loginpage Validation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;login_test.LoginPage_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Loginpage Validation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Board Creation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;createboard_test.BoardCreate_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Board Creation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validation of Board Creation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;createboard_test.BoardValidation_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validation of Board Creation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;List Creation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;createlist_test.ListCreation_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- List Creation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validation of List Creation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;createlist_test.ListValidation_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validation of List Creation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Card Creation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;createcard_test.CardCreation_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Card Creation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validation of Card Creation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;createcard_test.CardValidation_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validation of Card Creation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Card movement and Validation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;movecard_test.CardMove_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Card movement and Validation --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Assign and Comment&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;commentandassign_test.Assign_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Assign and Comment --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Log Off&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;logout_test.LogOut_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Log Off --&gt;
+&lt;/suite&gt; &lt;!-- Trello --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Trello" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Trello</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Invoking Browser (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Title Validation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Invalid Cred test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Loginpage Validation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Board Creation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validation of Board Creation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">List Creation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validation of List Creation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Card Creation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validation of Card Creation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Card movement and Validation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Assign and Comment (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Log Off (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Trello" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Trello</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Trello" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Trello</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Trello');
+function tableData_Trello() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginpageValidation')
+data.setCell(0, 2, 'login_test.LoginPage_Test')
+data.setCell(0, 3, 27146);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'BoardCreation')
+data.setCell(1, 2, 'createboard_test.BoardCreate_Test')
+data.setCell(1, 3, 19171);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Assign_And_Comment')
+data.setCell(2, 2, 'commentandassign_test.Assign_Test')
+data.setCell(2, 3, 18727);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CredentialValidation_Password')
+data.setCell(3, 2, 'invalidcredentials.InvalidCred_Test')
+data.setCell(3, 3, 13348);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CredentialValidation_Username')
+data.setCell(4, 2, 'invalidcredentials.InvalidCred_Test')
+data.setCell(4, 3, 12562);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'browserOpening')
+data.setCell(5, 2, 'invoking.browser_test.OpenBrowserbyExcel_Test')
+data.setCell(5, 3, 11003);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Listing4')
+data.setCell(6, 2, 'createlist_test.ListCreation_Test')
+data.setCell(6, 3, 10296);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'CardMovement1')
+data.setCell(7, 2, 'movecard_test.CardMove_Test')
+data.setCell(7, 3, 8270);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'CardMovement3')
+data.setCell(8, 2, 'movecard_test.CardMove_Test')
+data.setCell(8, 3, 7564);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'CardValidate')
+data.setCell(9, 2, 'createcard_test.CardValidation_Test')
+data.setCell(9, 3, 6948);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'CardMovement2')
+data.setCell(10, 2, 'movecard_test.CardMove_Test')
+data.setCell(10, 3, 6100);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Listing1')
+data.setCell(11, 2, 'createlist_test.ListCreation_Test')
+data.setCell(11, 3, 5117);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'cardCreation')
+data.setCell(12, 2, 'createcard_test.CardCreation_Test')
+data.setCell(12, 3, 4681);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'CardMovementValidation3')
+data.setCell(13, 2, 'movecard_test.CardMove_Test')
+data.setCell(13, 3, 4494);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'cardCreation1')
+data.setCell(14, 2, 'createcard_test.CardCreation_Test')
+data.setCell(14, 3, 3014);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Listing2')
+data.setCell(15, 2, 'createlist_test.ListCreation_Test')
+data.setCell(15, 3, 2681);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'cardCreation2')
+data.setCell(16, 2, 'createcard_test.CardCreation_Test')
+data.setCell(16, 3, 2558);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Listing3')
+data.setCell(17, 2, 'createlist_test.ListCreation_Test')
+data.setCell(17, 3, 2534);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'cardCreation3')
+data.setCell(18, 2, 'createcard_test.CardCreation_Test')
+data.setCell(18, 3, 2521);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ValidationBoard')
+data.setCell(19, 2, 'createboard_test.BoardValidation_Test')
+data.setCell(19, 3, 2368);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'ListValidate')
+data.setCell(20, 2, 'createlist_test.ListValidation_Test')
+data.setCell(20, 3, 464);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'signoff')
+data.setCell(21, 2, 'logout_test.LogOut_Test')
+data.setCell(21, 3, 243);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'CardMovementValidation1')
+data.setCell(22, 2, 'movecard_test.CardMove_Test')
+data.setCell(22, 3, 234);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'CardMovementValidation2')
+data.setCell(23, 2, 'movecard_test.CardMove_Test')
+data.setCell(23, 3, 224);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'titleValidation')
+data.setCell(24, 2, 'title_test.TitlePage_Test')
+data.setCell(24, 3, 112);
+window.suiteTableData['Trello']= { tableData: data, tableDiv: 'times-div-Trello'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Trello">
+              </div> <!-- times-div-Trello -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Trello" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Trello</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Trello" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Trello" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">invoking.browser_test.OpenBrowserbyExcel_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">browserOpening</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">title_test.TitlePage_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">titleValidation</span>
+                <span class="method-start">11117 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">invalidcredentials.InvalidCred_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CredentialValidation_Username</span>
+                <span class="method-start">11244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CredentialValidation_Password</span>
+                <span class="method-start">23810 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">login_test.LoginPage_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginpageValidation</span>
+                <span class="method-start">37170 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">createboard_test.BoardCreate_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BoardCreation</span>
+                <span class="method-start">64331 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">createboard_test.BoardValidation_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ValidationBoard</span>
+                <span class="method-start">83513 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">createlist_test.ListCreation_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Listing1</span>
+                <span class="method-start">85889 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Listing2</span>
+                <span class="method-start">91008 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Listing3</span>
+                <span class="method-start">93690 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Listing4</span>
+                <span class="method-start">96224 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">createlist_test.ListValidation_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ListValidate</span>
+                <span class="method-start">106530 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">createcard_test.CardCreation_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">cardCreation1</span>
+                <span class="method-start">107003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cardCreation2</span>
+                <span class="method-start">110019 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cardCreation3</span>
+                <span class="method-start">112578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cardCreation</span>
+                <span class="method-start">115100 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">createcard_test.CardValidation_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CardValidate</span>
+                <span class="method-start">119799 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">movecard_test.CardMove_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CardMovement1</span>
+                <span class="method-start">126757 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CardMovementValidation1</span>
+                <span class="method-start">135028 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CardMovement2</span>
+                <span class="method-start">135262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CardMovementValidation2</span>
+                <span class="method-start">141363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CardMovement3</span>
+                <span class="method-start">141589 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CardMovementValidation3</span>
+                <span class="method-start">149154 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">commentandassign_test.Assign_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Assign_And_Comment</span>
+                <span class="method-start">153658 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">logout_test.LogOut_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signoff</span>
+                <span class="method-start">172395 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
